@@ -197,7 +197,6 @@ public class UserManagementTool {
 				catch(Exception e) {
 					System.out.println("An error occurred during file delete operation. "+e.getMessage());
 				}
-				deleteFile(fileName);
 				break;
 			case 3:
 				System.out.print("Enter the user name (Firstname Lastname) or file name (firstname.lastname) to search: ");
